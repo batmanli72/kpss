@@ -350,3 +350,12 @@ if (document.getElementById("countdown-days")) {
   setInterval(updateTimer, 1000);
 }
 
+// Ana sayfada admin panel butonunu yetkiye göre göster/gizle
+const adminPanelBtn = document.getElementById("admin-panel-btn");
+if (adminPanelBtn) {
+  const currentUser = localStorage.getItem(CURRENT_USER);
+  if (currentUser !== "admin") {
+    adminPanelBtn.style.display = "none";
+  }
+}
+
