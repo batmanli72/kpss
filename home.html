@@ -9,6 +9,7 @@
 <body>
   <div class="header">
     <button onclick="goTo('dersler.html')">📚 Ders Takibi</button>
+    <button onclick="goTo('program.html')">📅 Ders Programı</button>
     <button onclick="goTo('sorular.html')">🧩 Soru Paylaş</button>
     <button onclick="goTo('admin.html')">🛠 Admin Panel</button>
     <button onclick="logout()">🚪 Çıkış</button>
@@ -17,6 +18,29 @@
   <div class="main-image">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/KPSS_logo.png/600px-KPSS_logo.png" alt="KPSS">
     <h2>KPSS'ye Hazır mısın?</h2>
+    
+    <div class="countdown-card">
+      <h3>KPSS Ortaöğretim 2026 Geri Sayım</h3>
+      <div class="countdown-timer">
+        <div class="time-block">
+          <span id="countdown-days">00</span>
+          <label>Gün</label>
+        </div>
+        <div class="time-block">
+          <span id="countdown-hours">00</span>
+          <label>Saat</label>
+        </div>
+        <div class="time-block">
+          <span id="countdown-minutes">00</span>
+          <label>Dakika</label>
+        </div>
+        <div class="time-block">
+          <span id="countdown-seconds">00</span>
+          <label>Saniye</label>
+        </div>
+      </div>
+      <p class="exam-date-label">Sınav Tarihi: 25 Ekim 2026</p>
+    </div>
   </div>
 
   <script src="script.js"></script>

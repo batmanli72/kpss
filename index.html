@@ -7,13 +7,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="login-container">
-    <h1>KPSS Takip Sistemi</h1>
+  <div class="login-container" id="user-login-card">
+    <h1>Kullanıcı Girişi</h1>
     <input type="text" id="username" placeholder="Kullanıcı adı">
     <button onclick="login()">Giriş Yap</button>
     <p>Hesabınız yok mu? <a href="#" onclick="register()">Kayıt Ol</a></p>
     <p id="error"></p>
+    <p style="margin-top: 1.5rem;"><a href="#" onclick="switchForm('admin')">🛠 Yönetici (Admin) Girişi</a></p>
   </div>
+
+  <div class="login-container" id="admin-login-card" style="display: none;">
+    <h1>Yönetici Girişi</h1>
+    <input type="text" id="admin-username" placeholder="Yönetici Kullanıcı adı">
+    <input type="password" id="admin-password" placeholder="Yönetici Şifre">
+    <button onclick="adminLogin()">Yönetici Girişi Yap</button>
+    <p id="admin-error" style="color: var(--danger); font-size: 0.875rem; margin-top: 0.5rem; font-weight: 500;"></p>
+    <p style="margin-top: 1.5rem;"><a href="#" onclick="switchForm('user')">👤 Kullanıcı Girişine Dön</a></p>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>

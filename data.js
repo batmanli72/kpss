@@ -1,4 +1,82 @@
 const dersler = {
-  "Genel Kültür": ["Tarih", "Coğrafya", "Vatandaşlık"],
-  "Genel Yetenek": ["Matematik", "Türkçe"]
+  "Türkçe": [
+    "Sözcükte Anlam",
+    "Cümlede Anlam",
+    "Paragrafta Anlam",
+    "Ses Bilgisi",
+    "Yazım Kuralları",
+    "Noktalama İşaretleri",
+    "Sözcük Grupları (İsim, Sıfat, Zamir vb.)",
+    "Fiiller ve Ek Fiil",
+    "Cümlenin Ögeleri",
+    "Cümle Türleri",
+    "Anlatım Bozuklukları",
+    "Sözel Mantık"
+  ],
+  "Matematik": [
+    "Temel Kavramlar ve Sayılar",
+    "Bölme ve Bölünebilme Kuralları",
+    "Asal Çarpanlara Ayırma, EBOB-EKOK",
+    "Birinci Dereceden Denklemler",
+    "Rasyonel ve Ondalık Sayılar",
+    "Basit Eşitsizlikler",
+    "Mutlak Değer",
+    "Üslü Sayılar",
+    "Köklü Sayılar",
+    "Çarpanlara Ayırma",
+    "Oran-Oranti",
+    "Sayı ve Kesir Problemleri",
+    "Yaş Problemleri",
+    "İşçi Problemleri",
+    "Hareket (Hız) Problemleri",
+    "Yüzde, Kar-Zarar, Faiz Problemleri",
+    "Karışım Problemleri",
+    "Kümeler ve Kartezyen Çarpım",
+    "Fonksiyonlar",
+    "Permütasyon, Kombinasyon, Binom",
+    "Olasılık",
+    "Sayısal Mantık ve Tablo-Grafik Yorumlama"
+  ],
+  "Geometri": [
+    "Açılar ve Üçgenler",
+    "Çokgenler ve Dörtgenler",
+    "Çember ve Daire",
+    "Analitik Geometri",
+    "Katı Cisimler"
+  ],
+  "Tarih": [
+    "İslamiyet Öncesi Türk Tarihi",
+    "İlk Türk-İslam Devletleri",
+    "Osmanlı Devleti Kuruluş ve Yükselme Dönemleri",
+    "Osmanlı Devleti Duraklama, Gerileme ve Dağılma Dönemleri",
+    "Osmanlı Devleti Kültür ve Medeniyeti",
+    "XX. Yüzyılda Osmanlı Devleti",
+    "Kurtuluş Savaşı Hazırlık Dönemi",
+    "Kurtuluş Savaşı Muharebeler Dönemi",
+    "Atatürk İlke ve İnkılapları",
+    "Atatürk Dönemi Türk Dış Politikası",
+    "Çağdaş Türk ve Dünya Tarihi"
+  ],
+  "Coğrafya": [
+    "Türkiye'nin Coğrafi Konumu",
+    "Türkiye'nin Yerşekilleri ve Özellikleri",
+    "Türkiye'nin İklimi ve Bitki Örtüsü",
+    "Türkiye'de Nüfus ve Yerleşme",
+    "Türkiye'de Tarım",
+    "Türkiye'de Hayvancılık ve Ormancılık",
+    "Türkiye'de Madenler ve Enerji Kaynakları",
+    "Türkiye'de Sanayi, Ulaşım ve Ticaret",
+    "Türkiye'de Turizm ve Bölgesel Kalkınma Projeleri"
+  ],
+  "Vatandaşlık": [
+    "Hukukun Temel Kavramları",
+    "Devlet Biçimleri ve Hükümet Sistemleri",
+    "Anayasa Tarihi ve 1982 Anayasası",
+    "Temel Hak ve Ödevler",
+    "Devletin Yasama Organı",
+    "Devletin Yürütme Organı",
+    "Devletin Yargı Organı",
+    "İdare Hukuku",
+    "Güncel Bilgiler"
+  ]
 };
