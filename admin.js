@@ -24,7 +24,8 @@ const sorular = rawSorular.map((item, idx) => {
   return item;
 });
 if (migrated) {
-  localStorage.setItem("sorular", JSON.stringify(sorular));
+  localStorage.setItem("sorular", JSON.stringify(sorular)
+);
 }
 
 // User count & list
